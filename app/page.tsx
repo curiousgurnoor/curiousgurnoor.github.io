@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 
 export default function HomePage() {
   return (
@@ -6,7 +7,16 @@ export default function HomePage() {
       <div className="max-w-4xl mx-auto px-6 py-8">
         {/* Header */}
         <header className="mb-8">
-          <h1 className="text-2xl font-mono font-bold text-black mb-6">gurnoor singh narula</h1>
+          <div className="flex flex-col items-start gap-4">
+            <Image
+              src="/images/profile.jpg"
+              alt="Gurnoor Singh Narula"
+              width={120}
+              height={120}
+              className="rounded-lg object-cover"
+            />
+            <h1 className="text-2xl font-mono font-bold text-black">gurnoor singh narula</h1>
+          </div>
         </header>
 
         {/* Main Content */}

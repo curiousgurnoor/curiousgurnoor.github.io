@@ -1,5 +1,8 @@
+"use client"
+
 import Link from "next/link"
 import Image from "next/image"
+import { useState } from "react"
 
 export default function HomePage() {
   return (
@@ -111,9 +114,84 @@ export default function HomePage() {
                 </p>
               </div>
             </div>
+
+            <SecretProjects />
           </div>
         </main>
       </div>
+    </div>
+  )
+}
+
+function SecretProjects() {
+  const [isExpanded, setIsExpanded] = useState(false)
+
+  return (
+    <div className="border border-dashed border-gray-300 rounded p-2 hover:border-gray-500 transition-colors">
+      <button
+        onClick={() => setIsExpanded(!isExpanded)}
+        className="w-full text-left flex items-center gap-2 text-gray-600 hover:text-black focus:outline-none transition-colors font-mono"
+      >
+        <span className="text-green-600">{isExpanded ? ">" : "$"}</span>
+        <span className="text-purple-600">cat</span>{" "}
+        {isExpanded ? "other_cool_things.txt" : "./hidden/other_cool_things.txt"}
+        {!isExpanded && <span className="text-gray-400 text-xs ml-2 animate-pulse">(click to reveal)</span>}
+      </button>
+
+      {isExpanded && (
+        <div className="mt-3 pl-4 border-l-2 border-green-200 space-y-3 text-sm leading-relaxed">
+          <div className="group">
+            <p className="flex items-start">
+              <span className="text-green-600 mr-2 font-mono">{">"}</span>
+              <Link href="/philosophy" className="text-blue-600 underline">
+                collection of personal philosophies
+              </Link>
+            </p>
+          </div>
+
+          <div className="group">
+            <p className="flex items-start">
+              <span className="text-green-600 mr-2 font-mono">{">"}</span>
+              <a href="https://lu.ma/calendar/cal-83qgXZHIf3NOLJd" className="text-blue-600 underline">
+                [rcnyc]
+              </a>
+              <span className="ml-1">:</span>
+            </p>
+            <p className="text-gray-600 ml-6 group-hover:text-black transition-colors">
+              a series of concerted meetings for new york's crypto community to examine the most compelling ideas at the
+              bleeding edge of r&d
+            </p>
+          </div>
+
+          <div className="group">
+            <p className="flex items-start">
+              <span className="text-green-600 mr-2 font-mono">{">"}</span>
+              <a href="https://www.instagram.com/gurnoorsgarage/" className="text-blue-600 underline">
+                gurnoor's garage
+              </a>
+              <span className="ml-1">:</span>
+            </p>
+            <p className="text-gray-600 ml-6 group-hover:text-black transition-colors">
+              a documentation of my favorite car finds on streets, at cafes, at car shows, and literally anywhere else
+              (also some opinions and observations about the automobile and racing world)
+            </p>
+          </div>
+
+          <div className="group">
+            <p className="flex items-start">
+              <span className="text-green-600 mr-2 font-mono">{">"}</span>
+              <Link href="#" className="text-blue-600 underline">
+                the practice garage (TODO)
+              </Link>
+              <span className="ml-1">:</span>
+            </p>
+            <p className="text-gray-600 ml-6 group-hover:text-black transition-colors">
+              my performances of original jazz improv, classic etudes, and big band/blues music on my selmer mark VI
+              tenor saxophone
+            </p>
+          </div>
+        </div>
+      )}
     </div>
   )
 }

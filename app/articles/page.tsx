@@ -14,48 +14,30 @@ export default function ArticlesPage() {
         <main className="space-y-6 text-sm leading-relaxed">
           <div className="space-y-4">
             <div>
-              <p className="font-bold">venture capital & investing</p>
+              <p className="font-bold">june 2025</p>
               <div className="ml-6 space-y-1">
-                <p>• "The Economics of Venture Capital" by Metrick & Yasuda (2010)</p>
+                <p>
+                  •{" "}
+                  <a href="https://www.youtube.com/watch?v=99XsVSN_doQ" className="text-blue-600 underline">
+                    Link
+                  </a>
+                  . Tokens are Broken, <em>Felipe Montealegre</em>
+                </p>
+                <p>
+                  •{" "}
+                  <a href="https://www.youtube.com/watch?v=1ymrnRrhMug" className="text-blue-600 underline">
+                    Link
+                  </a>
+                  . GigaCompute & Beyond, <em>Ben Livshits</em>
+                </p>
+                <p>
+                  •{" "}
+                  <a href="https://www.youtube.com/watch?v=SkKmnZb77Gs" className="text-blue-600 underline">
+                    Link
+                  </a>
+                  . MPC for Privacy & UX, <em>Dev Ohja</em>
+                </p>
               </div>
-            </div>
-
-            <div>
-              <p className="font-bold">economics & finance</p>
-              <div className="ml-6 space-y-1">
-                <p className="italic">trading</p>
-                <div className="ml-6 space-y-1"></div>
-                <p className="italic">crypto</p>
-                <div className="ml-6 space-y-1"></div>
-                <p className="italic">macro</p>
-                <div className="ml-6 space-y-1"></div>
-                <p className="italic">money</p>
-                <div className="ml-6 space-y-1"></div>
-                <p className="italic">financial engineering</p>
-                <div className="ml-6 space-y-1"></div>
-                <p className="italic">mechanism design</p>
-                <div className="ml-6 space-y-1"></div>
-              </div>
-            </div>
-
-            <div>
-              <p className="font-bold">behavioral economics & psychology</p>
-              <div className="ml-6 space-y-1"></div>
-            </div>
-
-            <div>
-              <p className="font-bold">philosophy</p>
-              <div className="ml-6 space-y-1"></div>
-            </div>
-
-            <div>
-              <p className="font-bold">biography</p>
-              <div className="ml-6 space-y-1"></div>
-            </div>
-
-            <div>
-              <p className="font-bold">textbooks</p>
-              <div className="ml-6 space-y-1"></div>
             </div>
           </div>
         </main>

@@ -8,7 +8,7 @@ export default function ArticlesPage() {
           <Link href="/" className="text-blue-600 underline text-sm">
             ← back to home
           </Link>
-          <h1 className="text-2xl font-mono font-bold text-black mt-4 mb-6">articles & papers</h1>
+          <h1 className="text-2xl font-mono font-bold text-black mt-4 mb-6">selected articles, papers, & talks</h1>
         </header>
 
         <main className="space-y-6 text-sm leading-relaxed">
@@ -36,6 +36,31 @@ export default function ArticlesPage() {
                     Link
                   </a>
                   . MPC for Privacy & UX, <em>Dev Ohja</em>
+                </p>
+                <p>
+                  •{" "}
+                  <a href="https://www.helius.dev/blog/simd-228" className="text-blue-600 underline">
+                    Link
+                  </a>
+                  . SIMD-228: A Critical Analysis, <em>Lostin & Ichigo</em>
+                </p>
+                <p>
+                  •{" "}
+                  <a href="https://www.helius.dev/blog/alpenglow" className="text-blue-600 underline">
+                    Link
+                  </a>
+                  . Alpenglow: Solana's Great Consensus Rewrite, <em>Lostin & Ichigo</em>
+                </p>
+                <p>
+                  •{" "}
+                  <a
+                    href="https://www.helius.dev/blog/solana-foundation-delegation-program-sfdp"
+                    className="text-blue-600 underline"
+                  >
+                    Link
+                  </a>
+                  . The Solana Foundation Delegation Program & the Challenges Facing Long-tail Validators,{" "}
+                  <em>Lostin</em>
                 </p>
               </div>
             </div>

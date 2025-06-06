@@ -49,7 +49,7 @@ export default function HomePage() {
             <p className="ml-4">(-) [2023-2024] president @ blockchain at berkeley</p>
             <p className="ml-4">(-) [2022-2023] managing director @ berkeley blockchain xcelerator</p>
             <p className="ml-4">
-              (-) [2021-2024] bachelor's in electrical engineering and computer science @ uc berkeley
+              (-) [2021-2024] bachelor's in electrical engineering & computer science @ uc berkeley
             </p>
           </div>
 
@@ -67,7 +67,7 @@ export default function HomePage() {
                 <p>
                   -{" "}
                   <Link href="/articles" className="text-blue-600 underline">
-                    articles & papers
+                    selected articles, papers, & talks
                   </Link>
                 </p>
               </div>
@@ -173,7 +173,7 @@ function SecretProjects() {
             </p>
             <p className="text-gray-600 ml-6 group-hover:text-black transition-colors">
               a documentation of my favorite car finds on streets, at cafes, at car shows, and literally anywhere else
-              (also some opinions and observations about the automobile and racing world)
+              (also some opinions and observations about the automobile & racing world)
             </p>
           </div>
 
@@ -186,8 +186,8 @@ function SecretProjects() {
               <span className="ml-1">:</span>
             </p>
             <p className="text-gray-600 ml-6 group-hover:text-black transition-colors">
-              my performances of original jazz improv, classic etudes, and big band/blues music on my selmer mark VI
-              tenor saxophone
+              my performances of original jazz improv, classic etudes, & big band/blues music on my selmer mark VI tenor
+              saxophone
             </p>
           </div>
         </div>

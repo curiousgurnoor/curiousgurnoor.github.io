@@ -62,6 +62,23 @@ export default function ArticlesPage() {
                   . The Solana Foundation Delegation Program & the Challenges Facing Long-tail Validators,{" "}
                   <em>Lostin</em>
                 </p>
+                <p>
+                  •{" "}
+                  <a
+                    href="https://www.broadridge.com/_assets/pdf/broadridge-crypto-asset-disclosure-study-report.pdf"
+                    className="text-blue-600 underline"
+                  >
+                    Link
+                  </a>
+                  . Crypto Asset Disclosure Study, <em>Broadridge</em>
+                </p>
+                <p>
+                  •{" "}
+                  <a href="https://assets.pubpub.org/efeeza8o/01656289809141.pdf" className="text-blue-600 underline">
+                    Link
+                  </a>
+                  . Disclosure, dApps, & DeFi, <em>Chris Brummer</em>
+                </p>
               </div>
             </div>
           </div>

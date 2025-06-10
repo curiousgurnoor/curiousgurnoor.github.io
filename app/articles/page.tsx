@@ -79,6 +79,13 @@ export default function ArticlesPage() {
                   </a>
                   . Disclosure, dApps, & DeFi, <em>Chris Brummer</em>
                 </p>
+                <p>
+                  •{" "}
+                  <a href="https://github.com/CommissionerPeirce/SafeHarbor2.0" className="text-blue-600 underline">
+                    Link
+                  </a>
+                  . Proposed Safe Harbor – Time-limited Exemption for Tokens, <em>Hester Pierce</em>
+                </p>
               </div>
             </div>
           </div>

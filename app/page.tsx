@@ -140,14 +140,6 @@ function SecretProjects() {
 
       {isExpanded && (
         <div className="mt-3 pl-4 border-l-2 border-green-200 space-y-3 text-sm leading-relaxed">
-          <div className="group">
-            <p className="flex items-start">
-              <span className="text-green-600 mr-2 font-mono">{">"}</span>
-              <Link href="/philosophy" className="text-blue-600 underline">
-                collection of personal philosophies
-              </Link>
-            </p>
-          </div>
 
           <div className="group">
             <p className="flex items-start">
@@ -188,6 +180,15 @@ function SecretProjects() {
             <p className="text-gray-600 ml-6 group-hover:text-black transition-colors">
               my performances of original jazz improv, classic etudes, & big band/blues music on my selmer mark VI tenor
               saxophone
+            </p>
+          </div>
+
+            <div className="group">
+            <p className="flex items-start">
+              <span className="text-green-600 mr-2 font-mono">{">"}</span>
+              <Link href="/philosophy" className="text-blue-600 underline">
+                collection of personal philosophies
+              </Link>
             </p>
           </div>
 

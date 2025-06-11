@@ -190,6 +190,15 @@ function SecretProjects() {
               saxophone
             </p>
           </div>
+
+            <div className="group">
+            <p className="flex items-start">
+              <span className="text-green-600 mr-2 font-mono">{">"}</span>
+              <Link href="/someday" className="text-blue-600 underline">
+                someday i hope to...
+              </Link>
+            </p>
+          </div>
         </div>
       )}
     </div>

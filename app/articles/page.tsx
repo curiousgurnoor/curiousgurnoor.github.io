@@ -86,6 +86,13 @@ export default function ArticlesPage() {
                   </a>
                   . Proposed Safe Harbor – Time-limited Exemption for Tokens, <em>Hester Pierce</em>
                 </p>
+                <p>
+                  •{" "}
+                  <a href="https://www.youtube.com/watch?v=7tEx5eVX_B0" className="text-blue-600 underline">
+                    Link
+                  </a>
+                  . Fred Wilson & Brad Burnham (Union Square Ventures), <em>The Slow Hunch</em>
+                </p>
               </div>
             </div>
           </div>

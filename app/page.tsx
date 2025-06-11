@@ -78,9 +78,9 @@ export default function HomePage() {
               <div className="ml-6 space-y-1">
                 <p>
                   -{" "}
-                  <a href="https://hackmd.io/@curiousgurnoor" className="text-blue-600 underline">
+                  <Link href="/blog" className="text-blue-600 underline">
                     articles & papers
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>

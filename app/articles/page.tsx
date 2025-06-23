@@ -93,6 +93,20 @@ export default function ArticlesPage() {
                   </a>
                   . Fred Wilson & Brad Burnham (Union Square Ventures), <em>The Slow Hunch</em>
                 </p>
+                <p>
+                  •{" "}
+                  <a href="https://impressive-horses-5641a8b530.media.strapiapp.com/Aerodrome_Token_Transparency_Framework_Q2_2025_da694e4f13.pdf" className="text-blue-600 underline">
+                    Link
+                  </a>
+                  . Token Transparency Framework, <em>Blockworks</em>
+                </p>
+                <p>
+                  •{" "}
+                  <a href="https://www.researchgate.net/publication/237668678_A_Historical_Primer_on_the_Business_of_Credit_Ratings" className="text-blue-600 underline">
+                    Link
+                  </a>
+                  . A Historical Primer on the Business of Credit Ratings, <em>Richard Sylla</em>
+                </p>
               </div>
             </div>
           </div>

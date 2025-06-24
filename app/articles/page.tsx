@@ -107,6 +107,20 @@ export default function ArticlesPage() {
                   </a>
                   . A Historical Primer on the Business of Credit Ratings, <em>Richard Sylla</em>
                 </p>
+                <p>
+                  •{" "}
+                  <a href="https://dba.mirror.xyz/UTPfxWe65dYrUu_RJX-5VkAJypFRyw3AZh6m0dRXYZk" className="text-blue-600 underline">
+                    Link
+                  </a>
+                  . Endgame: Proof of Governance, <em>Jon Charbonneau</em>
+                </p>
+                <p>
+                  •{" "}
+                  <a href="https://forum.celestia.org/t/proof-of-governance-as-the-endgame-for-lsts/2036" className="text-blue-600 underline">
+                    Link
+                  </a>
+                  . Proof-of-Governance as the Endgame for LSTs, <em>John Adler</em>
+                </p>
               </div>
             </div>
           </div>

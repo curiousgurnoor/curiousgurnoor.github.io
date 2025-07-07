@@ -121,6 +121,20 @@ export default function ArticlesPage() {
                   </a>
                   . Proof-of-Governance as the Endgame for LSTs, <em>John Adler</em>
                 </p>
+                <p>
+                  •{" "}
+                  <a href="https://research.artemis.xyz/p/hyperliquid-a-valuation-model-and?utm_source=post-email-title&publication_id=835202&post_id=167190096&utm_campaign=email-post-title&isFreemail=true&r=3h38ah&triedRedirect=true&utm_medium=email" className="text-blue-600 underline">
+                    Link
+                  </a>
+                  . Hyperliquid: A Valuation Model and Bull Case, <em>Artemis</em>
+                </p>
+                <p>
+                  •{" "}
+                  <a href="https://www.bedlamresear.ch/posts/builder-deployed-perps/" className="text-blue-600 underline">
+                    Link
+                  </a>
+                  . Builder-Deployed Perps, <em>Bedlam Research</em>
+                </p>
               </div>
             </div>
           </div>

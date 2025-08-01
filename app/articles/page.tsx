@@ -14,6 +14,76 @@ export default function ArticlesPage() {
         <main className="space-y-6 text-sm leading-relaxed">
           <div className="space-y-4">
             <div>
+              <p className="font-bold">august 2025</p>
+              <div className="ml-6 space-y-1">
+                <p>
+                  •{" "}
+                  <a
+                    href="https://github.com/solana-foundation/solana-improvement-documents/blob/6ae9d892a60c5b95f435531f3df87be76c11e6b3/proposals/0326-alpenglow.md"
+                    className="text-blue-600 underline"
+                  >
+                    Link
+                  </a>
+                  . Alpenglow Rewards Mechanism, <em>Kniep, Sliwinski, & Wattenhofer</em>
+                </p>
+                <p>
+                  •{" "}
+                  <a
+                    href="https://github.com/solana-foundation/solana-improvement-documents/discussions/261"
+                    className="text-blue-600 underline"
+                  >
+                    Link
+                  </a>
+                  . Left Curve 228, <em>Austin Federa</em>
+                </p>
+              </div>
+            </div>
+            <div>
+              <p className="font-bold">july 2025</p>
+              <div className="ml-6 space-y-1">
+                <p>
+                  •{" "}
+                  <a
+                    href="https://dba.mirror.xyz/UTPfxWe65dYrUu_RJX-5VkAJypFRyw3AZh6m0dRXYZk"
+                    className="text-blue-600 underline"
+                  >
+                    Link
+                  </a>
+                  . Endgame: Proof of Governance, <em>Jon Charbonneau</em>
+                </p>
+                <p>
+                  •{" "}
+                  <a
+                    href="https://forum.celestia.org/t/proof-of-governance-as-the-endgame-for-lsts/2036"
+                    className="text-blue-600 underline"
+                  >
+                    Link
+                  </a>
+                  . Proof-of-Governance as the Endgame for LSTs, <em>John Adler</em>
+                </p>
+                <p>
+                  •{" "}
+                  <a
+                    href="https://research.artemis.xyz/p/hyperliquid-a-valuation-model-and?utm_source=post-email-title&publication_id=835202&post_id=167190096&utm_campaign=email-post-title&isFreemail=true&r=3h38ah&triedRedirect=true&utm_medium=email"
+                    className="text-blue-600 underline"
+                  >
+                    Link
+                  </a>
+                  . Hyperliquid: A Valuation Model and Bull Case, <em>Artemis</em>
+                </p>
+                <p>
+                  •{" "}
+                  <a
+                    href="https://www.bedlamresear.ch/posts/builder-deployed-perps/"
+                    className="text-blue-600 underline"
+                  >
+                    Link
+                  </a>
+                  . Builder-Deployed Perps, <em>Bedlam Research</em>
+                </p>
+              </div>
+            </div>
+            <div>
               <p className="font-bold">june 2025</p>
               <div className="ml-6 space-y-1">
                 <p>
@@ -92,48 +162,6 @@ export default function ArticlesPage() {
                     Link
                   </a>
                   . Fred Wilson & Brad Burnham (Union Square Ventures), <em>The Slow Hunch</em>
-                </p>
-                <p>
-                  •{" "}
-                  <a href="https://impressive-horses-5641a8b530.media.strapiapp.com/Aerodrome_Token_Transparency_Framework_Q2_2025_da694e4f13.pdf" className="text-blue-600 underline">
-                    Link
-                  </a>
-                  . Token Transparency Framework, <em>Blockworks</em>
-                </p>
-                <p>
-                  •{" "}
-                  <a href="https://www.researchgate.net/publication/237668678_A_Historical_Primer_on_the_Business_of_Credit_Ratings" className="text-blue-600 underline">
-                    Link
-                  </a>
-                  . A Historical Primer on the Business of Credit Ratings, <em>Richard Sylla</em>
-                </p>
-                <p>
-                  •{" "}
-                  <a href="https://dba.mirror.xyz/UTPfxWe65dYrUu_RJX-5VkAJypFRyw3AZh6m0dRXYZk" className="text-blue-600 underline">
-                    Link
-                  </a>
-                  . Endgame: Proof of Governance, <em>Jon Charbonneau</em>
-                </p>
-                <p>
-                  •{" "}
-                  <a href="https://forum.celestia.org/t/proof-of-governance-as-the-endgame-for-lsts/2036" className="text-blue-600 underline">
-                    Link
-                  </a>
-                  . Proof-of-Governance as the Endgame for LSTs, <em>John Adler</em>
-                </p>
-                <p>
-                  •{" "}
-                  <a href="https://research.artemis.xyz/p/hyperliquid-a-valuation-model-and?utm_source=post-email-title&publication_id=835202&post_id=167190096&utm_campaign=email-post-title&isFreemail=true&r=3h38ah&triedRedirect=true&utm_medium=email" className="text-blue-600 underline">
-                    Link
-                  </a>
-                  . Hyperliquid: A Valuation Model and Bull Case, <em>Artemis</em>
-                </p>
-                <p>
-                  •{" "}
-                  <a href="https://www.bedlamresear.ch/posts/builder-deployed-perps/" className="text-blue-600 underline">
-                    Link
-                  </a>
-                  . Builder-Deployed Perps, <em>Bedlam Research</em>
                 </p>
               </div>
             </div>

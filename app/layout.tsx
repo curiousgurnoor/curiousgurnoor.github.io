@@ -3,7 +3,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'curiousgurnoor',
-    generator: 'v0.dev'
+    generator: 'v0.app'
 }
 
 export default function RootLayout({

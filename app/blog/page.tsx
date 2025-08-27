@@ -130,7 +130,7 @@ export default function BlogPage() {
             <Link href="/" className="text-blue-600 underline text-sm">
               ← back to home
             </Link>
-            <h1 className="text-2xl font-mono font-bold text-black mt-4 mb-6">articles & papers</h1>
+            <h1 className="text-2xl font-mono font-bold text-black mt-4 mb-6">writings</h1>
           </header>
           <p className="text-sm text-gray-600">Loading posts...</p>
         </div>
@@ -146,7 +146,7 @@ export default function BlogPage() {
             <Link href="/" className="text-blue-600 underline text-sm">
               ← back to home
             </Link>
-            <h1 className="text-2xl font-mono font-bold text-black mt-4 mb-6">articles & papers</h1>
+            <h1 className="text-2xl font-mono font-bold text-black mt-4 mb-6">writings</h1>
           </header>
           <p className="text-sm text-red-600">{error}</p>
         </div>
@@ -161,12 +161,10 @@ export default function BlogPage() {
           <Link href="/" className="text-blue-600 underline text-sm">
             ← back to home
           </Link>
-          <h1 className="text-2xl font-mono font-bold text-black mt-4 mb-6">articles & papers</h1>
+          <h1 className="text-2xl font-mono font-bold text-black mt-4 mb-6">writings</h1>
         </header>
 
         <main className="space-y-6 text-sm leading-relaxed">
-          <p>academic papers, articles, and other written pieces i've published.</p>
-
           {posts.length === 0 ? (
             <p className="text-gray-600">No posts found.</p>
           ) : (

@@ -105,7 +105,7 @@ export default function BlogPostPage() {
         <div className="max-w-4xl mx-auto px-6 py-8">
           <header className="mb-8">
             <Link href="/blog" className="text-blue-600 underline text-sm">
-              ← back to articles
+              ← back to writings
             </Link>
             <h1 className="text-2xl font-mono font-bold text-black mt-4 mb-6">Loading...</h1>
           </header>
@@ -120,7 +120,7 @@ export default function BlogPostPage() {
         <div className="max-w-4xl mx-auto px-6 py-8">
           <header className="mb-8">
             <Link href="/blog" className="text-blue-600 underline text-sm">
-              ← back to articles
+              ← back to writings
             </Link>
             <h1 className="text-2xl font-mono font-bold text-black mt-4 mb-6">Post not found</h1>
           </header>
@@ -135,7 +135,7 @@ export default function BlogPostPage() {
       <div className="max-w-4xl mx-auto px-6 py-8">
         <header className="mb-8">
           <Link href="/blog" className="text-blue-600 underline text-sm">
-            ← back to articles
+            ← back to writings
           </Link>
           <h1 className="text-2xl font-mono font-bold text-black mt-4 mb-2">{post.title.rendered}</h1>
           <p className="text-gray-500 text-sm">{formatDate(post.date)}</p>

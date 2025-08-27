@@ -56,33 +56,13 @@ export default function HomePage() {
           {/* Content Sections */}
           <div className="space-y-4">
             <div>
-              <p className="font-medium">value consumed</p>
-              <div className="ml-6 space-y-1">
-                <p>
-                  -{" "}
-                  <Link href="/books" className="text-blue-600 underline">
-                    books
-                  </Link>
-                </p>
-                <p>
-                  -{" "}
-                  <Link href="/articles" className="text-blue-600 underline">
-                    selected articles, papers, & talks
-                  </Link>
-                </p>
-              </div>
-            </div>
-
-            <div>
-              <p className="font-medium">value produced</p>
-              <div className="ml-6 space-y-1">
-                <p>
-                  -{" "}
-                  <Link href="/blog" className="text-blue-600 underline">
-                    articles & papers
-                  </Link>
-                </p>
-              </div>
+              <p>
+                i also do some{" "}
+                <Link href="/blog" className="text-blue-600 underline">
+                  writing
+                </Link>{" "}
+                about my areas of focus and lessons i've learnt.
+              </p>
             </div>
 
             <div>

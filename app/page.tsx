@@ -70,9 +70,12 @@ export default function HomePage() {
               <div className="ml-6 space-y-1">
                 <p>
                   -{" "}
-                  <Link href="#" className="text-blue-600 underline">
-                    cv (TODO)
-                  </Link>
+                  <a
+                    href="https://drive.google.com/file/d/1B65ulw34f1rNXt4mmZGhEOz363QonwHw/view?usp=sharing"
+                    className="text-blue-600 underline"
+                  >
+                    resume
+                  </a>
                 </p>
                 <p>
                   -{" "}

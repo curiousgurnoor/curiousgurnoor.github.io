@@ -110,7 +110,7 @@ function SecretProjects() {
   const [isExpanded, setIsExpanded] = useState(false)
 
   return (
-    <div className="border border-dashed border-gray-300 rounded p-2 hover:border-gray-500 transition-colors">
+    <div className="border border-dashed border-gray-300 rounded p-2 hover:border-gray-500 transition-colors bg-white/30 backdrop-blur-sm">
       <button
         onClick={() => setIsExpanded(!isExpanded)}
         className="w-full text-left flex items-center gap-2 text-gray-600 hover:text-black focus:outline-none transition-colors font-mono"

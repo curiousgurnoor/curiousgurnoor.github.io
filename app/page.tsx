@@ -41,15 +41,22 @@ export default function HomePage() {
           <div>
             <p>prior to joining placeholder vc:</p>
             <p className="ml-4">
-              (-) [2023-present] research assistant @ haas school of business, under the mentorship of{" "}
+              (-) [2023 - current] research assistant @ haas school of business, under the mentorship of{" "}
               <a href="https://sites.google.com/berkeley.edu/thefinanceparlour/" className="text-blue-600 underline">
                 prof. christine parlour
               </a>
             </p>
-            <p className="ml-4">(-) [2023-2024] president @ blockchain at berkeley</p>
-            <p className="ml-4">(-) [2022-2023] managing director @ berkeley blockchain xcelerator</p>
+            <p className="ml-4">(-) [2023 - 2024] president @ blockchain at berkeley</p>
             <p className="ml-4">
-              (-) [2021-2024] bachelor's in electrical engineering & computer science @ uc berkeley
+              (-) [summer '23] fpga research intern @ intel (contributed to{" "}
+              <a href="https://arxiv.org/pdf/2412.12481" className="text-blue-600 underline">
+                this paper
+              </a>
+              )
+            </p>
+            <p className="ml-4">(-) [2022 - 2023] managing director @ berkeley blockchain xcelerator</p>
+            <p className="ml-4">
+              (-) [2021 - 2024] bachelor's in electrical engineering & computer science @ uc berkeley
             </p>
           </div>
 

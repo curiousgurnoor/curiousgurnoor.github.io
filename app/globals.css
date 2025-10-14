@@ -87,15 +87,6 @@
     @apply border-border;
   }
   body {
-    @apply text-foreground;
-    background-color: #ffffff;
-    background-image: url("/images/tintin-background.jpg");
-    background-position: bottom right;
-    background-repeat: no-repeat;
-    background-size: 350px;
-    background-attachment: fixed;
-  }
-  body > div {
-    background: rgba(255, 255, 255, 0.5);
+    @apply bg-white text-foreground;
   }
 }

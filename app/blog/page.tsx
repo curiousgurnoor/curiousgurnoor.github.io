@@ -18,16 +18,8 @@ export default function BlogPage() {
       link: "https://ipfs.io/ipfs/bafkreigtlytteud5pq3ykz7qgozwh4g7evcoeaejtnj3g2u4wfx7jg5aua",
     },
     {
-      title: "Solana Seeker Phone Review",
-      link: "https://ipfs.io/ipfs/bafkreih5mat6v62aqi5klodkz5mq7zcbt7gkp3bok5ehfn7vpmrwuc27wa",
-    },
-    {
-      title: "The Stablecoin Paradox",
-      link: "https://ipfs.io/ipfs/bafkreiav7nw256gxjvxbvqarr6gzqqzkewqtarih6gxnmdhs6ywzg5rihm",
-    },
-    {
-      title: "Thoughts on Solana's Alpenglow",
-      link: "https://ipfs.io/ipfs/bafkreiddwfjg26ale5r4ttcxxb6o7owtx4h43mj3nhfllcsb2kapxvx4xy",
+      title: "David Goliath: How Web3 Can Compete in AI",
+      link: "https://ipfs.io/ipfs/bafkreicca44uuickvf53yr6koxc4mdphpqrbn4lfuemw66di43fzrwzime",
     },
     {
       title: "AI Agents as Animated Memecoins",
@@ -36,10 +28,6 @@ export default function BlogPage() {
     {
       title: "Beware of Tokenizing Everything",
       link: "https://ipfs.io/ipfs/bafkreibai5fieihmdcjzcmabiggzls4kjbectyicxmpowscyef24vtdj3e",
-    },
-    {
-      title: "David Goliath: How Web3 Can Compete in AI",
-      link: "https://ipfs.io/ipfs/bafkreicca44uuickvf53yr6koxc4mdphpqrbn4lfuemw66di43fzrwzime",
     },
     {
       title: "Decisions, Decisions, Decisions...",
@@ -52,6 +40,10 @@ export default function BlogPage() {
     {
       title: "Ethereum Protocol Call 2 Notes",
       link: "https://ipfs.io/ipfs/bafkreihltluwkhtcc6tjx3zmyyketphw7ez3x6gddr3w5zec3uumxe3fpm",
+    },
+    {
+      title: "DBA Research Day Highlights",
+      link: "https://ipfs.io/ipfs/bafkreihycf2itwhov6f75qnfpem4hznfw66lqm4tj364uyfkf2n4he6oh4",
     },
     {
       title: "Flexible Programmable Sequencing",
@@ -70,7 +62,7 @@ export default function BlogPage() {
       link: "https://ipfs.io/ipfs/bafkreibi3fuaitbo3gia4s26kwx2qhj6joqtjssagkctbn2isgmucg6qkq",
     },
     {
-      title: "Memecoin's are the First Crypto-Native Videogame",
+      title: "Memecoins are the First Crypto-Native Videogame",
       link: "https://ipfs.io/ipfs/bafkreiawyy2cflyf7wf3oabrbzdwq5vcycq6ganee3jpbwwiq5nr2awjum",
     },
     {
@@ -78,12 +70,20 @@ export default function BlogPage() {
       link: "https://ipfs.io/ipfs/bafkreicv3smc7rw2bazfw3h4p75jy4nsmu6k2wp7pu4thwnycbmw4ke2v4",
     },
     {
-      title: "Liquidity & Distribution: Exploring Novel Incentive Mechanisms",
+      title: "Short Everything? Field Notes from Dubai",
       link: "https://ipfs.io/ipfs/bafkreihbruhc6ywelkywt76c3btkzekrt6khiurk4og4pl6nwvx36gy5gq",
     },
     {
-      title: "Short Everything? Field Notes from Dubai",
-      link: "https://ipfs.io/ipfs/bafkreigqigbbfmjwovgj3ko6qzqpdkze2kyuzvmiavpppd5sgeboh6g7cu",
+      title: "Solana Seeker Phone Review",
+      link: "https://ipfs.io/ipfs/bafkreih5mat6v62aqi5klodkz5mq7zcbt7gkp3bok5ehfn7vpmrwuc27wa",
+    },
+    {
+      title: "The Stablecoin Paradox",
+      link: "https://ipfs.io/ipfs/bafkreiav7nw256gxjvxbvqarr6gzqqzkewqtarih6gxnmdhs6ywzg5rihm",
+    },
+    {
+      title: "Thoughts on Solana's Alpenglow",
+      link: "https://ipfs.io/ipfs/bafkreiddwfjg26ale5r4ttcxxb6o7owtx4h43mj3nhfllcsb2kapxvx4xy",
     },
   ]
 

@@ -10,6 +10,10 @@ interface Article {
 export default function BlogPage() {
   const articles: Article[] = [
     {
+      title: "Leveling the Stakes on Solana",
+      link: "https://ipfs.io/ipfs/bafkreigqigbbfmjwovgj3ko6qzqpdkze2kyuzvmiavpppd5sgeboh6g7cu",
+    },
+    {
       title: "Introducing The Sequencing Value Accrual Simulator",
       link: "https://ipfs.io/ipfs/bafkreibs4rsqhp2mkctnwh6yr34vtw5ibh2jz4wwxkqhl6xxvx6zixveg4",
     },

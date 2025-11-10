@@ -1,158 +1,87 @@
 "use client"
 
 import Link from "next/link"
-import { useState, useEffect } from "react"
 
-interface WordPressPost {
-  id: number
-  title: { rendered: string }
-  content: { rendered: string }
-  excerpt: { rendered: string }
-  slug: string
-  date: string
+interface Article {
+  title: string
   link: string
 }
 
-function formatDate(dateString: string): string {
-  const date = new Date(dateString)
-  return date.toLocaleDateString("en-US", {
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-  })
-}
-
-function stripHtml(html: string): string {
-  return html.replace(/<[^>]*>/g, "").trim()
-}
-
 export default function BlogPage() {
-  const [posts, setPosts] = useState<WordPressPost[]>([])
-  const [loading, setLoading] = useState(true)
-  const [error, setError] = useState<string | null>(null)
-
-  useEffect(() => {
-    async function fetchPosts() {
-      try {
-        setLoading(true)
-
-        // Try different WordPress API endpoints
-        const endpoints = [
-          "https://public-api.wordpress.com/wp/v2/sites/gurnoornarula.wordpress.com/posts?per_page=20",
-          "https://gurnoornarula.wordpress.com/wp-json/wp/v2/posts?per_page=20",
-        ]
-
-        let fetchedPosts: WordPressPost[] = []
-
-        for (const endpoint of endpoints) {
-          try {
-            console.log(`Trying endpoint: ${endpoint}`)
-
-            const response = await fetch(endpoint, {
-              headers: {
-                Accept: "application/json",
-              },
-            })
-
-            console.log(`Response status: ${response.status}`)
-
-            if (response.ok) {
-              const data = await response.json()
-              console.log(`Successfully fetched ${data.length} posts`)
-              fetchedPosts = data
-              break
-            }
-          } catch (err) {
-            console.error(`Failed to fetch from ${endpoint}:`, err)
-            continue
-          }
-        }
-
-        if (fetchedPosts.length === 0) {
-          // Fallback to mock data for preview
-          fetchedPosts = [
-            {
-              id: 1,
-              title: { rendered: "Mechanism Design in DeFi: A Practical Approach" },
-              content: { rendered: "<p>Sample content...</p>" },
-              excerpt: { rendered: "A deep dive into applying game theory and mechanism design to DeFi protocols." },
-              slug: "mechanism-design-defi",
-              date: "2024-12-15T00:00:00",
-              link: "#",
-            },
-            {
-              id: 2,
-              title: { rendered: "The Economics of Token Distribution" },
-              content: { rendered: "<p>Sample content...</p>" },
-              excerpt: { rendered: "An analysis of various token distribution strategies and their market effects." },
-              slug: "economics-token-distribution",
-              date: "2024-11-20T00:00:00",
-              link: "#",
-            },
-          ]
-        }
-
-        setPosts(fetchedPosts)
-      } catch (err) {
-        console.error("Error in fetchPosts:", err)
-        setError("Failed to load posts")
-      } finally {
-        setLoading(false)
-      }
-    }
-
-    fetchPosts()
-  }, [])
-
-  // Group posts by year
-  const groupedPosts = posts.reduce(
-    (acc, post) => {
-      const date = new Date(post.date)
-      const year = date.getFullYear().toString()
-
-      if (!acc[year]) {
-        acc[year] = []
-      }
-      acc[year].push(post)
-      return acc
+  const articles: Article[] = [
+    {
+      title: "Introducing The Sequencing Value Accrual Simulator",
+      link: "https://ipfs.io/ipfs/bafkreibs4rsqhp2mkctnwh6yr34vtw5ibh2jz4wwxkqhl6xxvx6zixveg4",
     },
-    {} as Record<string, WordPressPost[]>,
-  )
-
-  // Sort years in descending order
-  const sortedYears = Object.keys(groupedPosts).sort((a, b) => Number.parseInt(b) - Number.parseInt(a))
-
-  if (loading) {
-    return (
-      <div className="min-h-screen bg-white">
-        <div className="max-w-4xl mx-auto px-6 py-8">
-          <header className="mb-8">
-            <Link href="/" className="text-blue-600 underline text-sm">
-              ← back to home
-            </Link>
-            <h1 className="text-2xl font-mono font-bold text-black mt-4 mb-6">writings</h1>
-          </header>
-          <p className="text-sm text-gray-600">Loading posts...</p>
-        </div>
-      </div>
-    )
-  }
-
-  if (error) {
-    return (
-      <div className="min-h-screen bg-white">
-        <div className="max-w-4xl mx-auto px-6 py-8">
-          <header className="mb-8">
-            <Link href="/" className="text-blue-600 underline text-sm">
-              ← back to home
-            </Link>
-            <h1 className="text-2xl font-mono font-bold text-black mt-4 mb-6">writings</h1>
-          </header>
-          <p className="text-sm text-red-600">{error}</p>
-        </div>
-      </div>
-    )
-  }
+    {
+      title: "A Visual Guide to Sequencing Mechanisms",
+      link: "https://ipfs.io/ipfs/bafkreigtlytteud5pq3ykz7qgozwh4g7evcoeaejtnj3g2u4wfx7jg5aua",
+    },
+    {
+      title: "Solana Seeker Phone Review",
+      link: "https://ipfs.io/ipfs/bafkreih5mat6v62aqi5klodkz5mq7zcbt7gkp3bok5ehfn7vpmrwuc27wa",
+    },
+    {
+      title: "The Stablecoin Paradox",
+      link: "https://ipfs.io/ipfs/bafkreiav7nw256gxjvxbvqarr6gzqqzkewqtarih6gxnmdhs6ywzg5rihm",
+    },
+    {
+      title: "Thoughts on Solana's Alpenglow",
+      link: "https://ipfs.io/ipfs/bafkreiddwfjg26ale5r4ttcxxb6o7owtx4h43mj3nhfllcsb2kapxvx4xy",
+    },
+    {
+      title: "AI Agents as Animated Memecoins",
+      link: "https://ipfs.io/ipfs/bafkreihntijohcuw4t4lwyb5ggds3fl7dmhag5ggywibsfarwaunl4exca",
+    },
+    {
+      title: "Beware of Tokenizing Everything",
+      link: "https://ipfs.io/ipfs/bafkreibai5fieihmdcjzcmabiggzls4kjbectyicxmpowscyef24vtdj3e",
+    },
+    {
+      title: "David Goliath: How Web3 Can Compete in AI",
+      link: "https://ipfs.io/ipfs/bafkreicca44uuickvf53yr6koxc4mdphpqrbn4lfuemw66di43fzrwzime",
+    },
+    {
+      title: "Decisions, Decisions, Decisions...",
+      link: "https://ipfs.io/ipfs/bafkreibkndubbyazv7snkgmrdzv74udx47t3o3qkcdlssvpfh5dndxisle",
+    },
+    {
+      title: "Ethereum Protocol Call 1 Notes",
+      link: "https://ipfs.io/ipfs/bafkreieurhiuf7m5pr6rngjtbuzvswkpuutfi6i3t2n2pekl4u6snngvhy",
+    },
+    {
+      title: "Ethereum Protocol Call 2 Notes",
+      link: "https://ipfs.io/ipfs/bafkreihltluwkhtcc6tjx3zmyyketphw7ez3x6gddr3w5zec3uumxe3fpm",
+    },
+    {
+      title: "Flexible Programmable Sequencing",
+      link: "https://ipfs.io/ipfs/bafkreiejehvfrha4a6gd5mj256ie7ybewpckfrwvmxtt7uexocejghfmqm",
+    },
+    {
+      title: "Is Privacy a Commodity?",
+      link: "https://ipfs.io/ipfs/bafkreibaz7ilt3jxum4nbypz54tvsqfw3hvrcq266q7wumb4cv3vtifq2q",
+    },
+    {
+      title: "Let's Build Something People Can Use",
+      link: "https://ipfs.io/ipfs/bafkreieseh5c7ha6eutw4yewnudiqnqiv5mfug5oijtvtu45bfuqjcf6ia",
+    },
+    {
+      title: "Marginal Improvements Aren't Enough",
+      link: "https://ipfs.io/ipfs/bafkreibi3fuaitbo3gia4s26kwx2qhj6joqtjssagkctbn2isgmucg6qkq",
+    },
+    {
+      title: "Memecoin's are the First Crypto-Native Videogame",
+      link: "https://ipfs.io/ipfs/bafkreiawyy2cflyf7wf3oabrbzdwq5vcycq6ganee3jpbwwiq5nr2awjum",
+    },
+    {
+      title: "Programmable Settlement",
+      link: "https://ipfs.io/ipfs/bafkreicv3smc7rw2bazfw3h4p75jy4nsmu6k2wp7pu4thwnycbmw4ke2v4",
+    },
+    {
+      title: "Liquidity & Distribution: Exploring Novel Incentive Mechanisms",
+      link: "https://ipfs.io/ipfs/bafkreihbruhc6ywelkywt76c3btkzekrt6khiurk4og4pl6nwvx36gy5gq",
+    },
+  ]
 
   return (
     <div className="min-h-screen bg-white">
@@ -165,34 +94,15 @@ export default function BlogPage() {
         </header>
 
         <main className="space-y-6 text-sm leading-relaxed">
-          {posts.length === 0 ? (
-            <p className="text-gray-600">No posts found.</p>
-          ) : (
-            <div className="space-y-6">
-              {sortedYears.map((year) => (
-                <div key={year} className="space-y-4">
-                  <h2 className="font-semibold text-base mb-3">{year}</h2>
-                  <div className="space-y-4">
-                    {groupedPosts[year].map((post) => (
-                      <div key={post.id}>
-                        <p className="font-medium">
-                          <Link href={`/blog/${post.slug}`} className="text-blue-600 underline">
-                            {stripHtml(post.title.rendered)}
-                          </Link>
-                        </p>
-                        <p className="text-gray-600">{formatDate(post.date)}</p>
-                        {post.excerpt.rendered && (
-                          <p className="text-gray-600 mt-2 text-sm">
-                            {stripHtml(post.excerpt.rendered).substring(0, 150)}...
-                          </p>
-                        )}
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              ))}
-            </div>
-          )}
+          <div className="space-y-3">
+            {articles.map((article) => (
+              <p key={article.title}>
+                <a href={article.link} className="text-blue-600 underline">
+                  {article.title}
+                </a>
+              </p>
+            ))}
+          </div>
         </main>
       </div>
     </div>

@@ -81,6 +81,10 @@ export default function BlogPage() {
       title: "Liquidity & Distribution: Exploring Novel Incentive Mechanisms",
       link: "https://ipfs.io/ipfs/bafkreihbruhc6ywelkywt76c3btkzekrt6khiurk4og4pl6nwvx36gy5gq",
     },
+    {
+      title: "Short Everything? Field Notes from Dubai",
+      link: "https://ipfs.io/ipfs/bafkreigqigbbfmjwovgj3ko6qzqpdkze2kyuzvmiavpppd5sgeboh6g7cu",
+    },
   ]
 
   return (

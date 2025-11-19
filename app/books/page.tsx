@@ -8,57 +8,9 @@ export default function BooksPage() {
           <Link href="/" className="text-blue-600 underline text-sm">
             ← back to home
           </Link>
-          <h1 className="text-2xl font-mono font-bold text-black mt-4 mb-6">books</h1>
+          <h1 className="text-2xl font-mono font-bold text-black mt-4 mb-6">books i've read</h1>
         </header>
 
-        <main className="space-y-6 text-sm leading-relaxed">
-          <div className="space-y-4">
-            <div>
-              <p className="font-bold">venture capital & investing</p>
-              <div className="ml-6 space-y-1">
-                <p>• Secrets of Sand Hill Road by Scott Kupor</p>
-              </div>
-            </div>
-
-            <div>
-              <p className="font-bold">economics & finance</p>
-              <div className="ml-6 space-y-1">
-                <p className="italic">trading</p>
-                <div className="ml-6 space-y-1"></div>
-                <p className="italic">crypto</p>
-                <div className="ml-6 space-y-1"></div>
-                <p className="italic">macro</p>
-                <div className="ml-6 space-y-1"></div>
-                <p className="italic">money</p>
-                <div className="ml-6 space-y-1"></div>
-                <p className="italic">financial engineering</p>
-                <div className="ml-6 space-y-1"></div>
-                <p className="italic">mechanism design</p>
-                <div className="ml-6 space-y-1"></div>
-              </div>
-            </div>
-
-            <div>
-              <p className="font-bold">behavioral economics & psychology</p>
-              <div className="ml-6 space-y-1"></div>
-            </div>
-
-            <div>
-              <p className="font-bold">philosophy</p>
-              <div className="ml-6 space-y-1"></div>
-            </div>
-
-            <div>
-              <p className="font-bold">biography</p>
-              <div className="ml-6 space-y-1"></div>
-            </div>
-
-            <div>
-              <p className="font-bold">textbooks</p>
-              <div className="ml-6 space-y-1"></div>
-            </div>
-          </div>
-        </main>
       </div>
     </div>
   )

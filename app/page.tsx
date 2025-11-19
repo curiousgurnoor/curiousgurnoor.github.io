@@ -9,17 +9,21 @@ export default function HomePage() {
     <div className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto px-6 py-8">
         {/* Header */}
-        <header className="mb-8">
-          <div className="flex flex-col items-start gap-4">
+        <header className="mb-12">
+          <div className="flex justify-center mb-4">
             <Image
-              src="/images/profile.jpg"
-              alt="Gurnoor Singh Narula"
-              width={120}
-              height={120}
+              src="/images/cardsharps.jpg"
+              alt="The Cardsharps by Caravaggio"
+              width={600}
+              height={400}
               className="rounded-lg object-cover"
             />
-            <h1 className="text-2xl font-mono font-bold text-black">gurnoor singh narula</h1>
           </div>
+          <p className="text-center italic text-sm text-gray-600">The Cardsharps by Caravaggio</p>
+          
+          <p className="text-lg font-mono font-bold text-black mt-6 mb-8">gurnoor singh narula</p>
+          
+          <h1 className="text-2xl font-mono font-bold text-black mb-8"></h1>
         </header>
 
         {/* Main Content */}
@@ -68,7 +72,11 @@ export default function HomePage() {
                 <Link href="/blog" className="text-blue-600 underline">
                   writing
                 </Link>{" "}
-                about my areas of focus and lessons i've learnt.
+                about my areas of focus and lessons i've learnt. i also enjoy{" "}
+                <Link href="/books" className="text-blue-600 underline">
+                  reading
+                </Link>
+                .
               </p>
             </div>
 

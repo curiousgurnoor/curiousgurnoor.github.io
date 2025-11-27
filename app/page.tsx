@@ -10,20 +10,21 @@ export default function HomePage() {
       <div className="max-w-4xl mx-auto px-6 py-8">
         {/* Header */}
         <header className="mb-8">
-          <div className="flex flex-col items-start gap-4">
+          <div className="flex flex-col items-center gap-1">
             <Image
-              src="/images/profile.jpg"
-              alt="Gurnoor Singh Narula"
-              width={120}
-              height={120}
+              src="/images/cardsharps.jpg"
+              alt="The Cardsharps by Caravaggio"
+              width={500}
+              height={400}
               className="rounded-lg object-cover"
             />
-            <h1 className="text-2xl font-mono font-bold text-black">gurnoor singh narula</h1>
+            <p className="text-xs italic text-gray-600">The Cardsharps by Caravaggio</p>
           </div>
+          <h1 className="text-2xl font-mono font-bold text-black mt-6 mb-1">gurnoor singh narula</h1>
         </header>
 
         {/* Main Content */}
-        <main className="space-y-6 text-sm leading-relaxed">
+        <main className="space-y-3 text-sm leading-relaxed">
           <div>
             <p className="mb-2">
               hey there! i am currently a research analyst at{" "}

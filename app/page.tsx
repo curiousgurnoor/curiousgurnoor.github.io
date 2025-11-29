@@ -26,11 +26,11 @@ export default function HomePage() {
             <p className="ml-4">(-) game theory, mechanism design, and auction theory</p>
             <p className="ml-4">(-) financial economics and engineering</p>
             <p className="ml-4">
-              (-) collaborative learning and discussion through{" "}
+              (-) collaborative learning with{" "}
               <a href="https://lu.ma/calendar/cal-83qgXZHIf3NOLJd" className="text-blue-600 underline">
                 [rcnyc]
               </a>
-              , a set of concerted meetings that examine compelling ideas related to cryptonetworks
+              , a set of concerted meetings that examine compelling ideas at the frontier of cryptonetworks
             </p>
           </div>
 

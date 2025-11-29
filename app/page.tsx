@@ -1,13 +1,25 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-white">
-      <div className="max-w-4xl mx-auto px-6 py-8">
+      <div className="max-w-4xl mx-auto px-6 py-6">
+        <div className="flex justify-center mb-6">
+          <Image
+            src="/images/cardsharps.jpg"
+            alt="The Cardsharps by Caravaggio"
+            width={364}
+            height={286}
+            className="object-cover"
+            priority
+          />
+        </div>
+
         {/* Header */}
-        <header className="mb-8">
+        <header className="mb-6">
           <h1 className="text-2xl font-mono font-bold text-black mb-1">gurnoor singh narula</h1>
         </header>
 
@@ -26,11 +38,11 @@ export default function HomePage() {
             <p className="ml-4">(-) game theory, mechanism design, and auction theory</p>
             <p className="ml-4">(-) financial economics and engineering</p>
             <p className="ml-4">
-              (-) collaborative learning with{" " }
+              (-) collaborative learning with{" "}
               <a href="https://lu.ma/calendar/cal-83qgXZHIf3NOLJd" className="text-blue-600 underline">
-                [rcnyc] 
+                [rcnyc]
               </a>{" "}
-                to examine compelling ideas at the frontier of cryptonetworks
+              to examine compelling ideas at the frontier of cryptonetworks
             </p>
           </div>
 

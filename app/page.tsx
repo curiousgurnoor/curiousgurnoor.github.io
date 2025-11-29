@@ -59,7 +59,7 @@ export default function HomePage() {
           {/* Content Sections */}
           <div className="space-y-4">
             <div>
-              <p className="font-medium">
+              <p>
                 i also do some{" "}
                 <Link href="/blog" className="text-blue-600 underline">
                   writing

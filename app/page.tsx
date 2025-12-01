@@ -11,8 +11,8 @@ export default function HomePage() {
           <Image
             src="/images/cardsharps.jpg"
             alt="The Cardsharps by Caravaggio"
-            width={510}
-            height={400}
+            width={280}
+            height={220}
             className="object-cover"
             priority
           />
@@ -72,11 +72,11 @@ export default function HomePage() {
           <div className="space-y-4">
             <div>
               <p>
-                i also do some{" "}
+                i do some{" "}
                 <Link href="/blog" className="text-blue-600 underline">
                   writing
                 </Link>{" "}
-                about my areas of focus and lessons i've learnt. i also enjoy{" "}
+                about my areas of focus and lessons i've learnt, and also enjoy{" "}
                 <Link href="/books" className="text-blue-600 underline">
                   reading
                 </Link>

@@ -11,8 +11,8 @@ export default function HomePage() {
           <Image
             src="/images/cardsharps.jpg"
             alt="The Cardsharps by Caravaggio"
-            width={280}
-            height={220}
+            width={325}
+            height={275}
             className="object-cover"
             priority
           />

@@ -86,15 +86,18 @@ export default function HomePage() {
                 </a>
                 .
               </p>
-              <p className="mt-4">i greatly appreciate the piece for exploring themes of strategic zero-sum interactions, and its reflection on human nature:</p>
+              <p className="mt-4">
+                i greatly appreciate the following piece for exploring themes of strategic zero-sum interactions, and
+                its reflection on human nature:
+              </p>
             </div>
 
             <div className="flex justify-center my-4">
               <Image
                 src="/images/cardsharps.jpg"
                 alt="The Cardsharps by Caravaggio"
-                width={400}
-                height={330}
+                width={440}
+                height={360}
                 className="object-cover"
                 priority
               />

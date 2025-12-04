@@ -7,17 +7,6 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto px-6 py-6">
-        <div className="flex justify-center mb-6">
-          <Image
-            src="/images/cardsharps.jpg"
-            alt="The Cardsharps by Caravaggio"
-            width={400}
-            height={330}
-            className="object-cover"
-            priority
-          />
-        </div>
-
         {/* Header */}
         <header className="mb-6">
           <h1 className="text-2xl font-mono font-bold text-black mb-1">gurnoor singh narula</h1>
@@ -82,9 +71,7 @@ export default function HomePage() {
                 </Link>
                 .
               </p>
-            </div>
-            <div>
-              <p>
+              <p className="mt-4">
                 find me on{" "}
                 <a href="https://x.com/curiousgurnoor" className="text-blue-600 underline">
                   twitter
@@ -99,6 +86,22 @@ export default function HomePage() {
                 </a>
                 .
               </p>
+              <p className="mt-4">i greatly appreciate the piece for exploring themes of strategic zero-sum interactions, and its reflection on human nature:</p>
+            </div>
+
+            <div className="flex justify-center my-4">
+              <Image
+                src="/images/cardsharps.jpg"
+                alt="The Cardsharps by Caravaggio"
+                width={400}
+                height={330}
+                className="object-cover"
+                priority
+              />
+            </div>
+
+            <div className="flex justify-center">
+              <p className="italic text-sm">The Cardsharps by Caravaggio</p>
             </div>
           </div>
         </main>

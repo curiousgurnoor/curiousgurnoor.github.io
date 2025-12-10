@@ -11,6 +11,10 @@ export default function BlogPage() {
   const articles: Article[] = [
     {
       title: "Thoughts on Venture Capital Investment Theses",
+      link: "https://ipfs.io/ipfs/bafkreigy4z75yowsb5g5uehne43lxcggrsrpwss4vm3uemhu7fi2z7ejyu",
+    },
+    {
+      title: "Thoughts on Venture Capital Investment Theses",
       link: "https://ipfs.io/ipfs/bafkreiaoj7j56asofimdzxvqpzpc3xz5zqi66vi5kl66rdas4coaeoikqa",
     },
     {

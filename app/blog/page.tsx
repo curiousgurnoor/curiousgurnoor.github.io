@@ -10,7 +10,7 @@ interface Article {
 export default function BlogPage() {
   const articles: Article[] = [
     {
-      title: "Thoughts on Venture Capital Investment Theses",
+      title: "Notes on Tokenizing New Asset Classes - [rcnyc4]",
       link: "https://ipfs.io/ipfs/bafkreigy4z75yowsb5g5uehne43lxcggrsrpwss4vm3uemhu7fi2z7ejyu",
     },
     {

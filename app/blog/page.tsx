@@ -10,6 +10,10 @@ interface Article {
 export default function BlogPage() {
   const articles: Article[] = [
     {
+      title: "Thoughts on Venture Capital Investment Theses",
+      link: "https://ipfs.io/ipfs/bafkreiaoj7j56asofimdzxvqpzpc3xz5zqi66vi5kl66rdas4coaeoikqa",
+    },
+    {
       title: "Leveling the Stakes on Solana",
       link: "https://ipfs.io/ipfs/bafkreigqigbbfmjwovgj3ko6qzqpdkze2kyuzvmiavpppd5sgeboh6g7cu",
     },

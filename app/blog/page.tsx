@@ -10,6 +10,10 @@ interface Article {
 export default function BlogPage() {
   const articles: Article[] = [
     {
+      title: "What Does Tokenized Infrastructure Look Like?",
+      link: "https://ipfs.io/ipfs/bafkreifklbfmk2pde5c6qpbgfikkrbqvzoyroojbxy7vmyopcxqs34rg3y",
+    },
+    {
       title: "Notes on Tokenizing New Asset Classes - [rcnyc4]",
       link: "https://ipfs.io/ipfs/bafkreigy4z75yowsb5g5uehne43lxcggrsrpwss4vm3uemhu7fi2z7ejyu",
     },

@@ -10,6 +10,10 @@ interface Article {
 export default function BlogPage() {
   const articles: Article[] = [
     {
+      title: "The Future of Money & Payments",
+      link: "https://ipfs.io/ipfs/bafkreiaadhp4jmznmpatskvcmsxnejj4dygc7mesc34oftbgto73ro2jwu",
+    },
+    {
       title: "What Does Tokenized Infrastructure Look Like?",
       link: "https://ipfs.io/ipfs/bafkreifklbfmk2pde5c6qpbgfikkrbqvzoyroojbxy7vmyopcxqs34rg3y",
     },

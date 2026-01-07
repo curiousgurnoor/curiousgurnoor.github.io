@@ -11,7 +11,7 @@ export default function BlogPage() {
   const articles: Article[] = [
     {
       title: "The Future of Money & Payments",
-      link: "https://ipfs.io/ipfs/bafkreiaadhp4jmznmpatskvcmsxnejj4dygc7mesc34oftbgto73ro2jwu",
+      link: "https://ipfs.io/bafkreiha2oeuai64h5vgzbp5obmyfx3ynjqasaoy3noqyv7vj7e5ztluei",
     },
     {
       title: "What Does Tokenized Infrastructure Look Like?",

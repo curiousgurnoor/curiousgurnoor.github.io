@@ -11,11 +11,11 @@ export default function BlogPage() {
   const articles: Article[] = [
     {
       title: "Tokenization, Market Inefficiencies, & Alternative Assets",
-      link: "https://ipfs.io/bafkreifln5fgauzosm7kkeci3ii27o4wcnhao6rnrdnpurriyr6hw2jwwi",
+      link: "https://ipfs.io/ipfs/bafkreifln5fgauzosm7kkeci3ii27o4wcnhao6rnrdnpurriyr6hw2jwwi",
     },
     {
       title: "The Future of Money & Payments",
-      link: "https://ipfs.io/bafkreiha2oeuai64h5vgzbp5obmyfx3ynjqasaoy3noqyv7vj7e5ztluei",
+      link: "https://ipfs.io/ipfs/bafkreiha2oeuai64h5vgzbp5obmyfx3ynjqasaoy3noqyv7vj7e5ztluei",
     },
     {
       title: "What Does Tokenized Infrastructure Look Like?",

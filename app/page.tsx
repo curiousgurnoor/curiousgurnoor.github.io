@@ -1,7 +1,4 @@
-"use client"
-
 import Link from "next/link"
-import Image from "next/image"
 
 export default function HomePage() {
   return (
@@ -86,27 +83,10 @@ export default function HomePage() {
                 </a>
                 .
               </p>
-              <p className="mt-4">
-                i greatly appreciate the following piece for exploring themes of strategic zero-sum interactions, and
-                its reflection on human nature:
-              </p>
-            </div>
-
-            <div className="flex justify-center my-4">
-              <Image
-                src="/images/cardsharps.jpg"
-                alt="The Cardsharps by Caravaggio"
-                width={440}
-                height={360}
-                className="object-cover"
-                priority
-              />
-            </div>
-
-            <div className="flex justify-center">
-              <p className="italic text-sm">The Cardsharps by Caravaggio</p>
             </div>
           </div>
+
+
         </main>
       </div>
     </div>

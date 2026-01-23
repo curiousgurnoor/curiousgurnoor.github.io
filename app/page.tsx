@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white flex items-center">
       <div className="max-w-4xl mx-auto px-6 py-6">
         {/* Header */}
         <header className="mb-6">

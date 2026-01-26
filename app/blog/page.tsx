@@ -10,6 +10,10 @@ interface Article {
 export default function BlogPage() {
   const articles: Article[] = [
     {
+      title: "A Tokenized Fast Path",
+      link: "https://ipfs.io/ipfs/bafkreibhceg6ijr3lzre5x5q3onj2mtxrtkst4e6zk7kz3fwukigvrvlnq",
+    },
+    {
       title: "Tokenization, Market Inefficiencies, & Alternative Assets",
       link: "https://ipfs.io/ipfs/bafkreifln5fgauzosm7kkeci3ii27o4wcnhao6rnrdnpurriyr6hw2jwwi",
     },

@@ -88,11 +88,11 @@ export default function HomePage() {
         </main>
 
         {/* Bottom Desert Image */}
-        <div className="mt-10 w-full overflow-hidden">
+        <div className="mt-10 w-full h-44 overflow-hidden rounded-lg">
           <img
             src="/images/tintin-desert.jpg"
             alt="Tintin, Captain Haddock, and Snowy walking through the desert"
-            className="w-full h-auto object-cover object-bottom"
+            className="w-full h-full object-cover object-[center_75%]"
           />
         </div>
       </div>

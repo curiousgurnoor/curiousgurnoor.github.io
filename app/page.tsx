@@ -2,8 +2,8 @@ import Link from "next/link"
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-white flex flex-col items-center justify-center">
-      <div className="w-full max-w-2xl mx-auto px-6 py-12">
+    <div className="h-screen bg-white flex flex-col overflow-hidden">
+      <div className="w-full max-w-2xl mx-auto px-6 pt-10 pb-0 flex flex-col flex-1 min-h-0">
         {/* Header */}
         <header className="mb-6">
           <h1 className="text-2xl font-mono font-bold text-black mb-1">gurnoor singh narula</h1>
@@ -88,11 +88,11 @@ export default function HomePage() {
         </main>
 
         {/* Bottom Desert Image */}
-        <div className="mt-10 w-full h-44 overflow-hidden rounded-lg">
+        <div className="mt-6 flex-1 min-h-0 w-full overflow-hidden">
           <img
             src="/images/tintin-desert.jpg"
             alt="Tintin, Captain Haddock, and Snowy walking through the desert"
-            className="w-full h-full object-cover object-[center_75%]"
+            className="w-full h-full object-cover object-bottom"
           />
         </div>
       </div>

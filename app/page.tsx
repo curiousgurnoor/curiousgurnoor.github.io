@@ -1,9 +1,22 @@
 import Link from "next/link"
+import Image from "next/image"
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-white flex items-center">
-      <div className="max-w-4xl mx-auto px-6 py-6">
+    <div className="min-h-screen bg-white flex flex-col items-center justify-center">
+      <div className="w-full max-w-2xl mx-auto px-6 py-12">
+        {/* Banner Image */}
+        <div className="mb-8 w-full">
+          <Image
+            src="/images/tintin-top.jpg"
+            alt="Tintin and Snowy running"
+            width={1280}
+            height={400}
+            className="w-full h-auto"
+            priority
+          />
+        </div>
+
         {/* Header */}
         <header className="mb-6">
           <h1 className="text-2xl font-mono font-bold text-black mb-1">gurnoor singh narula</h1>
@@ -85,9 +98,19 @@ export default function HomePage() {
               </p>
             </div>
           </div>
-
-
         </main>
+
+        {/* Bottom Desert Image */}
+        <div className="mt-10 w-full overflow-hidden">
+          <Image
+            src="/images/tintin-desert.jpg"
+            alt="Tintin, Captain Haddock, and Snowy walking through the desert"
+            width={1000}
+            height={1000}
+            className="w-full h-auto object-cover object-bottom"
+            priority
+          />
+        </div>
       </div>
     </div>
   )

@@ -62,11 +62,11 @@ export default function HomePage() {
                 <Link href="/blog" className="text-blue-600 underline">
                   writing
                 </Link>{" "}
-                about my areas of focus and lessons i've learnt, and also enjoy{" "}
-                <Link href="/books" className="text-blue-600 underline">
-                  reading
-                </Link>
-                .
+                about conceptual frameworks in venture investing & technology, niche areas of frontier research i find exciting, and interesting conversations i have with folks in the space.
+              </p>
+              <p className="mt-2">
+                i also enjoy reading, and i{"'"}m currently studying{" "}
+                <em>Technological Revolutions & Financial Capital</em> by Prof. Carlota Perez.
               </p>
               <p className="mt-4">
                 find me on{" "}

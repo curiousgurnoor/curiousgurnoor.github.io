@@ -13,9 +13,9 @@ export default function HomePage() {
         <main className="space-y-3 text-sm leading-relaxed">
           <div>
             <p className="mb-2">
-              hey there! i am currently a research analyst at{" "}
-              <a href="http://www.placeholder.vc/" className="text-blue-600 underline">
-                placeholder vc
+              hey there! i am currently an investment associate at{" "}
+              <a href="https://www.hashed.com/" className="text-blue-600 underline">
+                hashed
               </a>
               , where i focus on:
             </p>
@@ -33,7 +33,14 @@ export default function HomePage() {
           </div>
 
           <div>
-            <p>prior to joining placeholder vc:</p>
+            <p>prior to joining hashed:</p>
+            <p className="ml-4">
+              (-) [2024 - 2026] research analyst @{" "}
+              <a href="https://www.placeholder.vc/
+              " className="text-blue-600 underline">
+                placeholder vc
+              </a>
+            </p>
             <p className="ml-4">
               (-) [2023 - current] research assistant @ haas school of business, under the mentorship of{" "}
               <a href="https://sites.google.com/berkeley.edu/thefinanceparlour/" className="text-blue-600 underline">

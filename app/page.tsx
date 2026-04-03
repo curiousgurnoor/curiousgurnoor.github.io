@@ -25,7 +25,7 @@ export default function HomePage() {
             <p className="ml-4">(-) financial economics and engineering</p>
             <p className="ml-4">
               (-) collaborative learning with{" "}
-              <a href="https://lu.ma/calendar/cal-83qgXZHIf3NOLJd" className="text-blue-600 underline">
+              <a href="https://luma.com/rcnyc" className="text-blue-600 underline">
                 [rcnyc]
               </a>{" "}
               to examine compelling ideas at the frontier of cryptonetworks

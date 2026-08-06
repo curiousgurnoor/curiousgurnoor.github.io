@@ -13,7 +13,7 @@ export default function HomePage() {
         <main className="space-y-3 text-sm leading-relaxed">
           <div>
             <p className="mb-2">
-              hey there! i am currently an investment associate at{" "}
+              hey there! i am currently an investor at{" "}
               <a href="https://www.hashed.com/" className="text-blue-600 underline">
                 hashed
               </a>

@@ -10,6 +10,14 @@ interface Article {
 export default function BlogPage() {
   const articles: Article[] = [
     {
+      title: "Joining Hashed",
+      link: "https://yellow-certain-cockroach-405.mypinata.cloud/ipfs/bafkreifxupx626mfqgvf2hhu3jcwt5zil3ps7zxgdfuzi4yi6nkqrzq4xa",
+    },
+    {
+      title: "Reflections from Placeholder",
+      link: "https://yellow-certain-cockroach-405.mypinata.cloud/ipfs/bafkreifmq46fyhohk4spg5nfdwawisc3p7owgctu7fkzob4zx6rjp2qidq",
+    },
+    {
       title: "A Tokenized Fast Path",
       link: "https://ipfs.io/ipfs/bafkreibhceg6ijr3lzre5x5q3onj2mtxrtkst4e6zk7kz3fwukigvrvlnq",
     },

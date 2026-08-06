@@ -13,16 +13,21 @@ export default function HomePage() {
         <main className="space-y-3 text-sm leading-relaxed">
           <div>
             <p className="mb-2">
-              hey there! i am currently an investment associate at{" "}
+              hey there! i am currently an investor at{" "}
               <a href="https://www.hashed.com/" className="text-blue-600 underline">
                 hashed
               </a>
               , where i focus on:
             </p>
             <p className="ml-4">(-) venture capital investing</p>
-            <p className="ml-4">(-) blockchain infrastructure, defi, and crytpoasset market research</p>
-            <p className="ml-4">(-) game theory, mechanism design, and auction theory</p>
-            <p className="ml-4">(-) financial economics and engineering</p>
+            <p className="ml-4">
+              (-) blockchain and digital asset infrastructure, cryptoasset market research, financial economics and
+              engineering
+            </p>
+            <p className="ml-4">
+              (-) innovative AI and industrial infrastructure, smart defense technologies, practical life sciences,
+              deployment-ready robotics, and renewed consumer/data economies
+            </p>
             <p className="ml-4">
               (-) collaborative learning with{" "}
               <a href="https://luma.com/rcnyc" className="text-blue-600 underline">

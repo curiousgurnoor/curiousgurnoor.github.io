@@ -20,9 +20,14 @@ export default function HomePage() {
               , where i focus on:
             </p>
             <p className="ml-4">(-) venture capital investing</p>
-            <p className="ml-4">(-) blockchain infrastructure, defi, and crytpoasset market research</p>
-            <p className="ml-4">(-) game theory, mechanism design, and auction theory</p>
-            <p className="ml-4">(-) financial economics and engineering</p>
+            <p className="ml-4">
+              (-) blockchain and digital asset infrastructure, cryptoasset market research, financial economics and
+              engineering
+            </p>
+            <p className="ml-4">
+              (-) innovative AI and industrial infrastructure, smart defense technologies, practical life sciences,
+              deployment-ready robotics, and renewed consumer/data economies
+            </p>
             <p className="ml-4">
               (-) collaborative learning with{" "}
               <a href="https://luma.com/rcnyc" className="text-blue-600 underline">

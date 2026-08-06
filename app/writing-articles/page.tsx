@@ -15,6 +15,34 @@ export default function WritingArticlesPage() {
           <p>articles, blog posts, and other written pieces i've published.</p>
 
           <div className="space-y-6">
+            <div className="space-y-4">
+              <div>
+                <p className="font-medium">
+                  <a
+                    href="https://yellow-certain-cockroach-405.mypinata.cloud/ipfs/bafkreifxupx626mfqgvf2hhu3jcwt5zil3ps7zxgdfuzi4yi6nkqrzq4xa"
+                    className="text-blue-600 underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Joining Hashed
+                  </a>
+                </p>
+              </div>
+
+              <div>
+                <p className="font-medium">
+                  <a
+                    href="https://yellow-certain-cockroach-405.mypinata.cloud/ipfs/bafkreifmq46fyhohk4spg5nfdwawisc3p7owgctu7fkzob4zx6rjp2qidq"
+                    className="text-blue-600 underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Reflections from Placeholder
+                  </a>
+                </p>
+              </div>
+            </div>
+
             <div>
               <h2 className="font-semibold text-base mb-3">2024</h2>
               <div className="space-y-4">

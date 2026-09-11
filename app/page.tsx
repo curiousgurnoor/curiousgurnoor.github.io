@@ -35,6 +35,12 @@ export default function HomePage() {
               </a>{" "}
               to examine compelling ideas at the frontier of cryptonetworks
             </p>
+            <p className="mt-2">
+              my investments include:{" "}
+              <a href="https://theagi.company" className="text-blue-600 underline">
+                agi inc.
+              </a>
+            </p>
           </div>
 
           <div>

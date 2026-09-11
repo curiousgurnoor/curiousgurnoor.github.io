@@ -10,6 +10,10 @@ interface Article {
 export default function BlogPage() {
   const articles: Article[] = [
     {
+      title: "Defining the Tokenization Crossover Point",
+      link: "https://yellow-certain-cockroach-405.mypinata.cloud/ipfs/bafkreibzdaddslf3lyjedowtaj6keehhdwyx6smigzxjuysby6mkqeympq",
+    },
+    {
       title: "Field Notes from 2026 SBC",
       link: "https://yellow-certain-cockroach-405.mypinata.cloud/ipfs/bafkreifhgl5bbe3npo7crj2ec2ux3533onwpglu6qqi22nwlyxdfomkxuu",
     },

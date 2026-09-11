@@ -16,6 +16,19 @@ export default function WritingArticlesPage() {
 
           <div className="space-y-6">
             <div>
+              <p className="font-medium">
+                <a
+                  href="https://yellow-certain-cockroach-405.mypinata.cloud/ipfs/bafkreibzdaddslf3lyjedowtaj6keehhdwyx6smigzxjuysby6mkqeympq"
+                  className="text-blue-600 underline"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  "Defining the Tokenization Crossover Point"
+                </a>
+              </p>
+            </div>
+
+            <div>
               <h2 className="font-semibold text-base mb-3">2024</h2>
               <div className="space-y-4">
                 <div>

@@ -41,6 +41,20 @@ export default function HomePage() {
                 agi inc.
               </a>
             </p>
+            <p>
+              i&apos;m building out euclid labs with my friends{" "}
+              <a href="https://linkedin.com/in/kiyan-mohebbizadeh" className="text-blue-600 underline">
+                kiyan
+              </a>{" "}
+              and{" "}
+              <a href="https://linkedin.com/in/antoine-lena" className="text-blue-600 underline">
+                antoine
+              </a>
+              , and i also do some research at the haas school of business under the mentorship of{" "}
+              <a href="https://sites.google.com/berkeley.edu/thefinanceparlour/" className="text-blue-600 underline">
+                prof. christine parlour
+              </a>
+            </p>
           </div>
 
           <div>
@@ -50,12 +64,6 @@ export default function HomePage() {
               <a href="https://www.placeholder.vc/
               " className="text-blue-600 underline">
                 placeholder vc
-              </a>
-            </p>
-            <p className="ml-4">
-              (-) [2023 - current] research assistant @ haas school of business, under the mentorship of{" "}
-              <a href="https://sites.google.com/berkeley.edu/thefinanceparlour/" className="text-blue-600 underline">
-                prof. christine parlour
               </a>
             </p>
             <p className="ml-4">(-) [2023 - 2024] president @ blockchain at berkeley</p>

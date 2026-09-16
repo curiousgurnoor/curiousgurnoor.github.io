@@ -41,7 +41,7 @@ export default function HomePage() {
                 agi inc.
               </a>
             </p>
-            <p className="mt-4">i&apos;m also:</p>
+            <p className="mt-2">i&apos;m also:</p>
             <p className="ml-4">
               (-) building out euclid labs with my friends{" "}
               <a href="https://linkedin.com/in/kiyan-mohebbizadeh" className="text-blue-600 underline">

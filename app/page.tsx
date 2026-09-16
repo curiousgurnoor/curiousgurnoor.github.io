@@ -41,8 +41,9 @@ export default function HomePage() {
                 agi inc.
               </a>
             </p>
-            <p>
-              i&apos;m building out euclid labs with my friends{" "}
+            <p className="mt-4">i&apos;m also:</p>
+            <p className="ml-4">
+              (-) building out euclid labs with my friends{" "}
               <a href="https://linkedin.com/in/kiyan-mohebbizadeh" className="text-blue-600 underline">
                 kiyan
               </a>{" "}
@@ -50,35 +51,15 @@ export default function HomePage() {
               <a href="https://linkedin.com/in/antoine-lena" className="text-blue-600 underline">
                 antoine
               </a>
-              , and i also do some research at the haas school of business under the mentorship of{" "}
+            </p>
+            <p className="ml-4">
+              (-) researching @ haas school of business, under the mentorship of{" "}
               <a href="https://sites.google.com/berkeley.edu/thefinanceparlour/" className="text-blue-600 underline">
                 prof. christine parlour
               </a>
             </p>
           </div>
 
-          <div>
-            <p>prior to joining hashed:</p>
-            <p className="ml-4">
-              (-) [2024 - 2026] research analyst @{" "}
-              <a href="https://www.placeholder.vc/
-              " className="text-blue-600 underline">
-                placeholder vc
-              </a>
-            </p>
-            <p className="ml-4">(-) [2023 - 2024] president @ blockchain at berkeley</p>
-            <p className="ml-4">
-              (-) [summer '23] fpga research intern @ intel (contributed to{" "}
-              <a href="https://arxiv.org/pdf/2412.12481" className="text-blue-600 underline">
-                this paper
-              </a>
-              )
-            </p>
-            <p className="ml-4">(-) [2022 - 2023] managing director @ berkeley blockchain xcelerator</p>
-            <p className="ml-4">
-              (-) [2021 - 2024] bachelor's in electrical engineering & computer science @ uc berkeley
-            </p>
-          </div>
 
           {/* Content Sections */}
           <div className="space-y-4">
@@ -94,6 +75,27 @@ export default function HomePage() {
                 i also enjoy reading, and i{"'"}m currently studying{" "}
                 <em>Technological Revolutions & Financial Capital</em> by Prof. Carlota Perez.
               </p>
+              <div className="mt-4">
+                <p>prior to joining hashed:</p>
+                <p className="ml-4">
+                  (-) [2024 - 2026] research analyst @{" "}
+                  <a href="https://www.placeholder.vc/" className="text-blue-600 underline">
+                    placeholder vc
+                  </a>
+                </p>
+                <p className="ml-4">(-) [2023 - 2024] president @ blockchain at berkeley</p>
+                <p className="ml-4">
+                  (-) [summer '23] fpga research intern @ intel (contributed to{" "}
+                  <a href="https://arxiv.org/pdf/2412.12481" className="text-blue-600 underline">
+                    this paper
+                  </a>
+                  )
+                </p>
+                <p className="ml-4">(-) [2022 - 2023] managing director @ berkeley blockchain xcelerator</p>
+                <p className="ml-4">
+                  (-) [2021 - 2024] bachelor&apos;s in electrical engineering & computer science @ uc berkeley
+                </p>
+              </div>
               <p className="mt-4">
                 find me on{" "}
                 <a href="https://x.com/curiousgurnoor" className="text-blue-600 underline">

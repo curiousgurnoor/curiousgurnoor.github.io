@@ -43,7 +43,10 @@ export default function HomePage() {
             </p>
             <p className="mt-2">i&apos;m also:</p>
             <p className="ml-4">
-              (-) building out euclid labs with my friends{" "}
+              (-) building out{" "}
+              <a href="https://euclidrisk.com" className="text-blue-600 underline">
+                euclid labs
+              </a>{" "}with my friends{" "}
               <a href="https://linkedin.com/in/kiyan-mohebbizadeh" className="text-blue-600 underline">
                 kiyan
               </a>{" "}

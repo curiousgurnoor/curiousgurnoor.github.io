@@ -100,7 +100,7 @@ export default function HomePage() {
                 </p>
               </div>
               <p className="mt-4">
-                find me on{" "}
+                drop me a line at gurnoor(at)hashed(dot)com. find me on{" "}
                 <a href="https://x.com/curiousgurnoor" className="text-blue-600 underline">
                   twitter
                 </a>

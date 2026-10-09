@@ -106,7 +106,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="mt-6 italic">
+          <div className="mt-6 text-xs italic">
             <p>
               1: <a href="https://youtube.com/watch?v=jTu8lvRcpuw" className="text-blue-600 underline">playing the infinite game</a>
             </p>

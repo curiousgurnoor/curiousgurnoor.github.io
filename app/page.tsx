@@ -6,7 +6,7 @@ export default function HomePage() {
       <div className="max-w-4xl mx-auto px-6 py-6">
         {/* Header */}
         <header className="mb-6">
-          <h1 className="text-2xl font-mono font-bold text-black mb-1">gurnoor singh narula</h1>
+          <h1 className="text-2xl font-bold text-black mb-1" style={{ fontFamily: '"Bradley Hand", "Segoe Print", "Comic Sans MS", cursive' }}>gurnoor singh narula</h1>
         </header>
 
         {/* Main Content */}

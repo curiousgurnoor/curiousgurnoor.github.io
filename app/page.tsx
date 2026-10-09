@@ -6,7 +6,7 @@ export default function HomePage() {
       <div className="max-w-4xl mx-auto px-6 py-6">
         {/* Header */}
         <header className="mb-6">
-          <h1 className="text-2xl font-bold text-black mb-1" style={{ fontFamily: '"Bradley Hand", "Segoe Print", "Comic Sans MS", cursive' }}>gurnoor singh narula</h1>
+          <h1 className="text-2xl font-bold text-black mb-1" style={{ fontFamily: '"Segoe Print", "Bradley Hand", cursive' }}>gurnoor singh narula</h1>
         </header>
 
         {/* Main Content */}
@@ -19,22 +19,9 @@ export default function HomePage() {
               </a>
               , where i focus on:
             </p>
-            <p className="ml-4">(-) venture capital investing</p>
-            <p className="ml-4">
-              (-) blockchain and digital asset infrastructure, cryptoasset market research, financial economics and
-              engineering
-            </p>
-            <p className="ml-4">
-              (-) innovative AI and industrial infrastructure, smart defense technologies, practical life sciences,
-              deployment-ready robotics, and renewed consumer/data economies
-            </p>
-            <p className="ml-4">
-              (-) collaborative learning with{" "}
-              <a href="https://luma.com/rcnyc" className="text-blue-600 underline">
-                [rcnyc]
-              </a>{" "}
-              to examine compelling ideas at the frontier of cryptonetworks
-            </p>
+            <p className="ml-4">(-) fundamental early-stage venture capital investing (play the{" "}<a href="https://youtube.com/watch?v=jTu8lvRcpuw" className="text-blue-600 underline">infinite game</a>)</p>
+            <p className="ml-4">(-) digital financial asset applications, innovative AI infrastructure, decentralized consumer + data economies, scalable life sciences, deployment-ready robotics, and smart defense technologies</p>
+            <p className="ml-4">(-) collaborative learning with{" "}<a href="https://luma.com/rcnyc" className="text-blue-600 underline">[rcnyc]</a>{" "}to examine compelling frontier r&amp;d ideas</p>
             <p className="mt-2">
               my investments include:{" "}
               <a href="https://theagi.company" className="text-blue-600 underline">

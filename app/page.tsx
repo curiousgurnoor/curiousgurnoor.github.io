@@ -6,35 +6,23 @@ export default function HomePage() {
       <div className="max-w-4xl mx-auto px-6 py-6">
         {/* Header */}
         <header className="mb-6">
-          <h1 className="text-2xl font-mono font-bold text-black mb-1">gurnoor singh narula</h1>
+          <h1 className="text-2xl font-bold text-black mb-1" style={{ fontFamily: '"Bradley Hand", "Segoe Print", "Comic Sans MS", cursive' }}>gurnoor singh narula</h1>
         </header>
 
         {/* Main Content */}
         <main className="space-y-3 text-sm leading-relaxed">
           <div>
             <p className="mb-2">
-              hey there! i am currently an investor at{" "}
+              hey there! i&apos;m an <span>early-stage<sup>1</sup></span> venture investor at{" "}
               <a href="https://www.hashed.com/" className="text-blue-600 underline">
                 hashed
               </a>
-              , where i focus on:
+              . i believe<sup>2</sup> that:
             </p>
-            <p className="ml-4">(-) venture capital investing</p>
-            <p className="ml-4">
-              (-) blockchain and digital asset infrastructure, cryptoasset market research, financial economics and
-              engineering
-            </p>
-            <p className="ml-4">
-              (-) innovative AI and industrial infrastructure, smart defense technologies, practical life sciences,
-              deployment-ready robotics, and renewed consumer/data economies
-            </p>
-            <p className="ml-4">
-              (-) collaborative learning with{" "}
-              <a href="https://luma.com/rcnyc" className="text-blue-600 underline">
-                [rcnyc]
-              </a>{" "}
-              to examine compelling ideas at the frontier of cryptonetworks
-            </p>
+            <p className="ml-4">(-) financial infra and assets will run on programmable, composable, and distributed rails</p>
+            <p className="ml-4">(-) consumer data economies will exist in a local, decentralized, and private manner</p>
+            <p className="ml-4">(-) esoteric AI infrastructure will continue to scale frontier intelligence</p>
+            <p className="ml-4">(-) we can throw frontier models to solve hard problems in life sciences, deployment-ready robotics, and smart defense</p>
             <p className="mt-2">
               my investments include:{" "}
               <a href="https://theagi.company" className="text-blue-600 underline">
@@ -55,6 +43,7 @@ export default function HomePage() {
                 antoine
               </a>
             </p>
+            <p className="ml-4">(-) learning collaboratively with{" "}<a href="https://luma.com/rcnyc" className="text-blue-600 underline">[rcnyc]</a>{" "}to examine compelling frontier r&amp;d ideas</p>
             <p className="ml-4">
               (-) researching @ haas school of business, under the mentorship of{" "}
               <a href="https://sites.google.com/berkeley.edu/thefinanceparlour/" className="text-blue-600 underline">
@@ -117,7 +106,14 @@ export default function HomePage() {
             </div>
           </div>
 
-
+          <div className="mt-8 text-xs italic">
+            <p>
+              1: <a href="https://youtube.com/watch?v=jTu8lvRcpuw" className="text-blue-600 underline">playing the infinite game</a>
+            </p>
+            <p>
+              2: <a href="https://avc.com/2016/06/strong-views-weakly-held" className="text-blue-600 underline">strong views, weakly held</a>
+            </p>
+          </div>
         </main>
       </div>
     </div>

@@ -19,12 +19,12 @@ export default function HomePage() {
               </a>
               . i believe<sup>2</sup> that:
             </p>
-            <p className="ml-4">(-) financial infra and assets will run on programmable, composable, and distributed rails</p>
-            <p className="ml-4">(-) consumer data economies will exist in a local, decentralized, and private manner</p>
-            <p className="ml-4">(-) esoteric AI infrastructure will continue to scale frontier intelligence</p>
+            <p className="ml-4">(-) financial infrastructure and assets will run on programmable, composable, and distributed rails</p>
+            <p className="ml-4">(-) consumer data, memory, and context economies will exist in a local, decentralized, and private manner</p>
+            <p className="ml-4">(-) interesting AI scaling and model infrastructure will continue to push frontier intelligence</p>
             <p className="ml-4">(-) we can throw frontier models to solve hard problems in life sciences, deployment-ready robotics, and smart defense</p>
             <p className="mt-2">
-              my investments include:{" "}
+              my investment portfolio includes:{" "}
               <a href="https://theagi.company" className="text-blue-600 underline">
                 agi inc.
               </a>
@@ -45,10 +45,7 @@ export default function HomePage() {
             </p>
             <p className="ml-4">(-) learning collaboratively with{" "}<a href="https://luma.com/rcnyc" className="text-blue-600 underline">[rcnyc]</a>{" "}to examine compelling frontier r&amp;d ideas</p>
             <p className="ml-4">
-              (-) researching @ haas school of business, under the mentorship of{" "}
-              <a href="https://sites.google.com/berkeley.edu/thefinanceparlour/" className="text-blue-600 underline">
-                prof. christine parlour
-              </a>
+              (-) conducting research with prof. christine parlour @ haas school of business
             </p>
           </div>
 
@@ -79,7 +76,7 @@ export default function HomePage() {
                 <p className="ml-4">
                   (-) [summer '23] fpga research intern @ intel (contributed to{" "}
                   <a href="https://arxiv.org/pdf/2412.12481" className="text-blue-600 underline">
-                    this paper
+                    interesting research
                   </a>
                   )
                 </p>

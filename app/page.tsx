@@ -24,9 +24,12 @@ export default function HomePage() {
             <p className="ml-4">(-) interesting AI scaling and model infrastructure will continue to push frontier intelligence</p>
             <p className="ml-4">(-) we can throw frontier models to solve hard problems in life sciences, deployment-ready robotics, and smart defense</p>
             <p className="mt-2">
-              my investment portfolio includes:{" "}
+              investments include:{" "}
               <a href="https://theagi.company" className="text-blue-600 underline">
                 agi inc.
+              </a>{", "}
+              <a href="https://condu.it" className="text-blue-600 underline">
+                conduit
               </a>
             </p>
             <p className="mt-2">i&apos;m also:</p>

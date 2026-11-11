@@ -3,7 +3,14 @@ import Link from "next/link"
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-white flex items-center">
-      <div className="max-w-4xl mx-auto px-6 py-6">
+      <div className="relative isolate max-w-4xl mx-auto px-6 py-6">
+        <img
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1784147049517-Yud9U4Gw8ZFggmaj37E1rfSDgkbdh8.jpeg"
+          alt=""
+          aria-hidden="true"
+          className="pointer-events-none absolute bottom-6 right-3 z-0 hidden w-[352px] max-w-[calc(100%-3rem)] sm:block"
+        />
+        <div className="relative z-10">
         {/* Header */}
         <header className="mb-6">
           <h1 className="text-2xl font-bold text-black mb-1" style={{ fontFamily: '"Bradley Hand", "Segoe Print", "Comic Sans MS", cursive' }}>gurnoor singh narula</h1>
@@ -115,6 +122,7 @@ export default function HomePage() {
             </p>
           </div>
         </main>
+        </div>
       </div>
     </div>
   )

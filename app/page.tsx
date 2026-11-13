@@ -41,7 +41,7 @@ export default function HomePage() {
             </p>
             <p className="mt-2">i&apos;m also:</p>
             <p className="ml-4">
-              (-) <em>building degrees of freedom</em> (coming soon)
+              (-) building <em>degrees of freedom</em> (coming soon)
             </p>
             <p className="ml-4">(-) learning collaboratively with{" "}<a href="https://luma.com/rcnyc" className="text-blue-600 underline">[rcnyc]</a>{" "}to examine compelling frontier r&amp;d ideas</p>
             <p className="ml-4">

@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { writings } from "./writings"
 
 export default function HomePage() {
   return (
@@ -68,12 +69,25 @@ export default function HomePage() {
           <div className="space-y-4">
             <div>
               <p>
-                i do some{" "}
-                <Link href="/blog" className="text-blue-600 underline">
-                  writing
-                </Link>{" "}
-                about conceptual frameworks in venture investing & technology, niche areas of frontier research i find exciting, and interesting conversations i have with folks in the space.
+                i do some writing about conceptual frameworks in venture investing & technology, niche areas of frontier research i find exciting, and interesting conversations i have with folks in the space.
               </p>
+              <div className="mt-3 max-w-xl writing-scroll max-h-36 overflow-y-scroll rounded border border-[#D9D0BE] bg-white/40 px-3 py-2">
+                <ul className="space-y-1">
+                  {writings.map((piece) => (
+                    <li key={piece.link}>
+                      {piece.link.startsWith("/") ? (
+                        <Link href={piece.link} className="text-blue-600 underline">
+                          {piece.title}
+                        </Link>
+                      ) : (
+                        <a href={piece.link} target="_blank" rel="noreferrer" className="text-blue-600 underline">
+                          {piece.title}
+                        </a>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              </div>
               <p className="mt-2">
                 i also enjoy reading, and i{"'"}m currently studying{" "}
                 <em>Technological Revolutions & Financial Capital</em> by Prof. Carlota Perez.

@@ -2,13 +2,20 @@ import Link from "next/link"
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-white flex items-center">
-      <div className="relative isolate max-w-4xl mx-auto px-6 py-6">
+    <div
+      className="min-h-screen flex items-center"
+      style={{
+        backgroundColor: "#F5F2EA",
+        backgroundImage: "radial-gradient(#E4DDCF 1px, transparent 1px)",
+        backgroundSize: "18px 18px",
+      }}
+    >
+      <div className="relative max-w-4xl mx-auto px-6 py-6">
         <img
           src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1784147049517-Yud9U4Gw8ZFggmaj37E1rfSDgkbdh8.jpeg"
           alt=""
           aria-hidden="true"
-          className="pointer-events-none absolute bottom-6 right-3 z-0 hidden w-[352px] max-w-[calc(100%-3rem)] sm:block"
+          className="pointer-events-none absolute bottom-6 right-3 z-0 hidden w-[352px] max-w-[calc(100%-3rem)] mix-blend-multiply sm:block"
         />
         <div className="relative z-10">
         {/* Header */}

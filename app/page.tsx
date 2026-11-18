@@ -90,7 +90,7 @@ export default function HomePage() {
               </div>
               <p className="mt-2">
                 i also enjoy reading, and i{"'"}m currently studying{" "}
-                <em>Technological Revolutions & Financial Capital</em> by Prof. Carlota Perez.
+                <em>Confessions of an Economic Hit Man, 3rd Edition</em> by John Perkins.
               </p>
               <div className="mt-4">
                 <p>prior to joining hashed:</p>

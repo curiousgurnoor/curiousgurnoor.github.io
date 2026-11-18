@@ -48,7 +48,14 @@ export default function HomePage() {
             </p>
             <p className="mt-2">i&apos;m also:</p>
             <p className="ml-4">
-              (-) building <em>degrees of freedom</em> (coming soon)
+              (-) building{" "}
+              <a href="https://euclidrisk.com" className="text-blue-600 underline">
+                euclid labs
+              </a>{" "}
+              with{" "}
+              <a href="https://linkedin.com/in/kiyan-mohebbizadeh" className="text-blue-600 underline">
+                kiyan
+              </a>
             </p>
             <p className="ml-4">(-) learning collaboratively with{" "}<a href="https://luma.com/rcnyc" className="text-blue-600 underline">[rcnyc]</a>{" "}to examine compelling frontier r&amp;d ideas</p>
             <p className="ml-4">

@@ -7,7 +7,9 @@ date: November 18, 2026
 HOW TO USE THIS TEMPLATE
 (Anything between these comment markers is hidden on the site. Delete it or leave it.)
 
-1. Copy this file into content/writing/ and rename it. The file name becomes the URL:
+1. Make a copy of this file here in content/drafts/ and rename it. Drafts are never
+   published, even when pushed, so you can work on it as long as you like.
+   When it's ready, MOVE it to content/writing/. The file name becomes the URL:
      content/writing/my-new-essay.md  ->  gurnoornarula.com/writing/my-new-essay
    Use lowercase words joined by hyphens, no spaces.
 
@@ -45,7 +47,8 @@ Another paragraph, with **bold**, _italics_, and a [link](https://example.com).
 - Another bullet point
 
 <!--
-REMINDER BEFORE PUSHING: add this essay to the home page box.
+REMINDER WHEN PUBLISHING: move this file from content/drafts/ to content/writing/,
+then add this essay to the home page box.
 Open app/writings.ts and put this line at the TOP of the list:
   { title: "Your Essay Title", link: "/writing/my-new-essay" },
 The title should match the title above, and the part after /writing/ must match

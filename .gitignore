@@ -31,3 +31,7 @@ next-env.d.ts
 
 # macOS
 .DS_Store
+
+# unpublished drafts stay local (repo is public); the template is shared
+/content/drafts/*
+!/content/drafts/TEMPLATE.md

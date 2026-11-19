@@ -26,12 +26,10 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# source PDFs for essays (converted into content/writing)
-/essays/
 
 # macOS
 .DS_Store
 
-# unpublished drafts stay local (repo is public); the template is shared
-/content/drafts/*
-!/content/drafts/TEMPLATE.md
+# generated from writing/ by scripts/sync-writing.mjs
+/public/writing/
+/app/writing-list.json
